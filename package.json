@@ -1,0 +1,26 @@
+{
+  "name": "assert-modules-support-case-insensitive-fs",
+  "version": "0.0.1",
+  "description": "Assert that JS and TS modules support case-insensitive file systems",
+  "keywords": [
+    "case",
+    "file",
+    "insensitive",
+    "module",
+    "sensitive",
+    "system"
+  ],
+  "author": "uid11",
+  "license": "MIT",
+  "bin": "index.js",
+  "bugs": "https://github.com/uid11/assert-modules-support-case-insensitive-fs/issues",
+  "engines": {
+    "node": ">=14"
+  },
+  "homepage": "https://github.com/uid11/assert-modules-support-case-insensitive-fs#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uid11/assert-modules-support-case-insensitive-fs.git"
+  },
+  "types": "index.d.ts"
+}
