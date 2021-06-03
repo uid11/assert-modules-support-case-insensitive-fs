@@ -1,6 +1,6 @@
 {
   "name": "assert-modules-support-case-insensitive-fs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Assert that JS and TS modules support case-insensitive file systems",
   "keywords": [
     "case",
