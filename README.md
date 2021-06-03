@@ -22,7 +22,7 @@ This package takes a list of paths, and checks all directories and all subdirect
 (at all nesting levels) along those paths.
 
 Checking one directory consists in searching in this directory for two JS
-(or TS, or `.vue`, or `.cjc`, or `.mjs`, or `.json`) modules whose names differ only in case.
+(or TS, or `.vue`, or `.cjs`, or `.mjs`, or `.json`) modules whose names differ only in case.
 If there are such modules, the package throws an exception specifying these modules,
 because in a case-insensitive file system, such modules will not be distinguished
 (without specifying extensions).
@@ -51,7 +51,7 @@ foo/
 └── bAr.mjs
 ```
 
-Examples of directories **passing** validation (not throwing an exception): III
+Examples of directories **passing** validation (not throwing an exception):
 
 ```sh
 foo/
@@ -66,7 +66,7 @@ foo/
 
 foo/
 ├── Bar/
-└── Bar.vue
+├── Bar.vue
 └── Bar.tsx
 
 foo/
@@ -86,7 +86,7 @@ npx assert-modules-support-case-insensitive-fs src
 Assert modules in directories `src` and `bin`:
 
 ```sh
-npx assert-modules-support-case-insensitive-fs src
+npx assert-modules-support-case-insensitive-fs src bin
 ```
 
 ### JavaScript/TypeScript API
@@ -103,13 +103,13 @@ assertModulesSupportCaseInsensitiveFS(['src', 'tests']);
 
 [MIT][license-url]
 
-[conventional-commits-image]: https://img.shields.io/badge/Conventional_Commits-1.0.0-yellow.svg 'Conventional Commits'
+[conventional-commits-image]: https://img.shields.io/badge/Conventional_Commits-1.0.0-yellow.svg "Conventional Commits"
 [conventional-commits-url]: https://conventionalcommits.org
-[dependencies-none-image]: https://img.shields.io/badge/dependencies-none-success.svg 'No dependencies'
+[dependencies-none-image]: https://img.shields.io/badge/dependencies-none-success.svg "No dependencies"
 [dependencies-none-url]: https://github.com/uid11/assert-modules-support-case-insensitive-fs/blob/main/package.json
-[license-image]: https://img.shields.io/badge/license-MIT-blue.svg 'The MIT License'
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg "The MIT License"
 [license-url]: https://github.com/uid11/assert-modules-support-case-insensitive-fs/blob/main/LICENSE
-[npm-image]: https://img.shields.io/npm/v/assert-modules-support-case-insensitive-fs.svg 'assert-modules-support-case-insensitive-fs'
+[npm-image]: https://img.shields.io/npm/v/assert-modules-support-case-insensitive-fs.svg "assert-modules-support-case-insensitive-fs"
 [npm-url]: https://www.npmjs.com/package/assert-modules-support-case-insensitive-fs
-[prettier-image]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg 'Prettier code style'
+[prettier-image]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg "Prettier code style"
 [prettier-url]: https://github.com/prettier/prettier
